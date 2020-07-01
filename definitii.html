@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Definitii HTML si CSS</title>
+</head>
+<body>
+    <h1>Definitii HTML si CSS</h1>
+    <table border="1" width="600" cellpadding="10">
+        <tr>
+            <td width="50">HTML</td>
+            <td>HyperText Markup Language (HTML) este un limbaj de marcare utilizat pentru crearea paginilor web ce pot fi afișate într-un browser (sau navigator). Scopul HTML este mai degrabă prezentarea informațiilor – paragrafe, fonturi, tabele ș.a.m.d. – decât descrierea semanticii documentului.</td>
+        </tr>
+        <tr>
+            <td>small</td>
+            <td>tag pereche -Eticheta definește textul mai mici (cum ar fi drepturile de autor și alte observații secundare). </td>
+        </tr>
+        <tr>
+            <td>sub</td>
+            <td>tag pereche - Eticheta definește textul subscript. Textul subscris apare cu jumătate de caracter sub linia normală și este redat uneori cu un font mai mic. Textul subscript poate fi folosit pentru formule chimice, cum ar fi H 2 O.</td>
+        </tr>
+        <tr>
+            <td>sup</td>
+            <td>tag pereche - Eticheta definește textul exponenți. Textul suprascript apare cu jumătate de caracter peste linia normală și este redat uneori într-un font mai mic. Textul suprascript poate fi utilizat pentru notele de subsol, cum ar fi WWW [1] .</td>
+        </tr>
+        <tr>
+            <td>img src="..." alt="..."</td>
+            <td>
+              tag-ul "img" este folosit pentru a încorpora o imagine într - o pagină HTML.
+             <br>
+             Tag - ul are două atribute obligatorii:
+              <br>
+              <ul>
+                  <li>src - Specifică calea către imagine</li>
+                  <li>alt - Specifică un text alternativ pentru imagine, dacă imaginea nu poate fi afișată din anumite motive</li>
+              </ul>
+            
+             </td>
+        </tr>
+        <tr>
+            <td>ol</td>
+            <td>tag pereche - Eticheta definește o listă ordonată. O listă ordonată poate fi numerică sau alfabetică.</td>
+        </tr>
+        <tr>
+            <td>ul</td>
+            <td> tag pereche - Eticheta definește o lista neordonata (bulleted).
+
+                tag-ul "ul" se utilizeaza împreună cu tag "li" tag - ul pentru a crea liste neordonate.</td>
+        </tr>
+        <tr>
+            <td>title</td>
+            <td>
+                - este un tag -pereche, 
+                care defineste titlul documentului.
+                Titlul trebuie să fie numai text 
+                și este afișat în bara de titlu a browserului 
+                sau în fila paginii.
+            </td>
+        </tr>
+        <tr>
+            <td>html lang="en"</td>
+            <td> este un atribut in interiorul etichetei pentru a declara limba paginii web. Acest lucru este menit sa ajute motoarele de cautare si browserele.</td>
+        </tr>
+        <tr>
+            <td>header</td>
+            <td>Elementul reprezintă un container pentru conținutul introductiv sau un set de link - uri de navigație.
+             <br>
+                Un "header" element conține de obicei:
+                <ul>
+                    <li>unul sau mai multe elemente de titlu (h1 - h6)</li>
+                    <li>sigla sau pictograma</li>
+                    <li>informații despre autor</li>
+                </ul>
+                Notă: Puteți avea mai multe "header" elemente într-un singur document HTML. Cu toate acestea, "header" nu poate fi plasat într-un "footer", "address" sau într-un alt "header" element.</td>
+        </tr>
+        <tr>
+            <td>footer</td>
+            <td>
+                Eticheta definește un subsol pentru un document sau o secțiune.
+                 <br>
+                Un "footer" element conține de obicei:
+                <ul>
+                    <li>informații despre autor</li>
+                    <li>informatii despre copyright</li>
+                    <li>informatii de contact</li>
+                    <li>sitemap</li>
+                    <li>înapoi la linkurile de sus</li>
+                    <li>documente relatate</li>
+                </ul>
+                
+                Puteți avea mai multe "footer" elemente într-un singur document.
+                
+            </td>
+        </tr>
+        <tr>
+            <td>section</td>
+            <td>tag pereche - Eticheta definește o secțiune într - un document.</td>
+        </tr>
+        <tr>
+            <td>main</td>
+            <td>
+                Eticheta specifică conținutul principal al unui document.
+                 <br>
+                Conținutul din interiorul "main" elementului ar trebui să fie unic documentului. Nu ar trebui să conțină niciun conținut care se repetă pe documente precum barele laterale, link-uri de navigație, informații privind drepturile de autor, logo-urile site-ului și formularele de căutare.
+                <br>
+                Notă: Nu trebuie să existe mai mult de un "main" element într-un document. "main"-Elementul nu trebuie să fie un descendent al unui "article, section, footer, header sau nav" Element.
+                
+                </td>
+        </tr>
+        <tr>
+            <td>article</td>
+            <td>
+                Eticheta specifică de conținut independent, autonom.
+
+Un articol ar trebui să aibă sens singur și ar trebui să fie posibil să îl distribuie independent de restul site-ului.
+
+Surse potențiale pentru "article" element:
+<ul>
+    <li>Postare pe forum</li>
+    <li>Postare pe blog</li>
+    <li>Poveste noua</li>
+</ul>
+<br>
+Notă:"article" Elementul nu face nimic special ca într - un browser. Cu toate acestea, puteți utiliza CSS pentru stilul "article" elementului (a se vedea exemplul de mai jos).
+            </td>
+        </tr>
+        <tr>
+            <td>figure</td>
+            <td>
+                Eticheta specifică de conținut autonom, cum ar fi ilustrații, diagrame, fotografii, liste de cod, etc.
+<br>
+În timp ce conținutul "figure" elementului este legat de fluxul principal, poziția acestuia este independentă de fluxul principal, iar dacă este eliminat, acesta nu ar trebui să afecteze fluxul documentului.
+<br>
+Sfat: "figcaption" - elementul este folosit pentru a adăuga o legendă pentru "figure" elementul.
+
+
+            </td>
+        </tr>
+        <tr>
+            <td>nav</td>
+            <td>
+                Eticheta definește un set de link - uri de navigare.
+            <br>
+                Observați că NU toate linkurile unui document ar trebui să fie în interiorul unui "nav" element.  Elementul "nav"  este destinat numai pentru blocul major al link - uri de navigare.   
+            </td>
+        </tr>
+        <tr>
+            <td>SEO</td>
+            <td>
+                SEO este o știință relativ nouă (dacă considerăm că și internetul este destul de nou 🙂 ) și reprezintă o combinație dintre diferite domenii mai vechi (marketing, scriere texte, diferite tehnici de atragere a clienților etc.).
+                <br>
+                În SEO se lucrează cu conținutul unui site și cu modul în care este perceput acesta atât de către utilizator, cât și de motoarele de căutare, precum Google. 
+            </td>
+        </tr>
+        <tr>
+            <td>schema org</td>
+            <td>
+                Schema.org este o activitate de colaborare, comunitară, cu misiunea de a crea, menține și promova scheme de date structurate pe internet, pe pagini web, în ​​mesaje de email și nu numai.
+<br>
+Vocabularul Schema.org poate fi utilizat cu multe codificări diferite, inclusiv RDFa, Microdata și JSON-LD. Aceste vocabulare acoperă entitățile, relațiile dintre entități și acțiuni și pot fi extinse cu ușurință printr-un model de extensie bine documentat. Peste 10 milioane de site-uri folosesc Schema.org pentru a marca paginile web și mesajele de e-mail. Multe aplicații de la Google, Microsoft, Pinterest, Yandex și altele folosesc deja aceste vocabulare pentru a oferi experiențe bogate în energie.
+<br>
+Fondată de Google, Microsoft, Yahoo și Yandex, vocabularile Schema.org sunt dezvoltate printr-un proces comunitar deschis , folosind lista de distribuție public-schemaorg@w3.org și prin GitHub .
+<br>
+Un vocabular împărtășit face mai ușor pentru webmasteri și dezvoltatori să decidă asupra unei scheme și să obțină beneficiul maxim pentru eforturile lor. În acest spirit, fondatorii, împreună cu comunitatea mai mare, s-au reunit - pentru a oferi o colecție comună de scheme.
+            </td>
+        </tr>
+        <tr>
+            <td>microformats</td>
+            <td>
+                Microformatele sunt modele mici de HTML pentru a reprezenta lucruri publicate în mod obișnuit, cum ar fi persoane , evenimente , postări pe blog , recenzii și etichete în paginile web.
+<br>
+Microformatele sunt cel mai rapid și simplu mod de a furniza o API informațiilor de pe site-ul dvs. web. Vedeți ce altceva puteți face cu microformate .
+            </td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>
+                Css-ul este un limbaj de stilizare al elementelor html, al tagurilor html. Denumirea CSS provine din expresia Cascading Style Sheets. In Web Design-ul modern, pentru stilizarea paginilor web se foloseste numai CSS. Acest lucru inseamna ca de la culoarea literelor si a backgroundului pana si la pozitionarea elementelor de pe o pagina web, totul este stilizat prin CSS. Stilurile folosite pe o pagina pot fi incorporate in pagina respectiva sau pot fi chemate din fisiere externe, fisiere css. 
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>
